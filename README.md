@@ -95,7 +95,7 @@ $barcodeRoute = (new \Ukrposhta\Tracking\Tracking())
   // ->$this->setRequestLang('EN')
   ->requestBarcodeRoute('[BARCODE]');
 // Prints "[from] -> [to]" information for the given barcode.
-print $barcodeRoute->getFrom() ' -> ' . $barcodeRoute->getTo();
+print $barcodeRoute->getFrom() . ' -> ' . $barcodeRoute->getTo();
 ```
 
 [Ukrposhta API]: https://dev.ukrposhta.ua/documentation "Ukrposhta API"

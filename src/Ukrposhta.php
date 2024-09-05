@@ -36,7 +36,7 @@ abstract class Ukrposhta implements LoggerAwareInterface
         protected readonly ?string $bearerEcom = null,
         protected readonly ?string $bearerStatusTracking = null,
         protected readonly ?string $bearerCounterparty = null,
-        protected bool $sandbox = false,
+        protected readonly bool $sandbox = false,
         protected ?LoggerInterface $logger = null,
     ) {
     }

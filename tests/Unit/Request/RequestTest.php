@@ -55,7 +55,6 @@ class RequestTest extends TestCase
     public function testSetLogger(): void
     {
         $logger = new class() extends AbstractLogger {
-            /** @phpstan-ignore-next-line */
             public function log($level, \Stringable|string $message, array $context = []): void
             {
             }
