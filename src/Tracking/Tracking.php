@@ -67,7 +67,6 @@ class Tracking extends Ukrposhta implements TrackingInterface
         string $bearerStatusTracking = null,
         string $bearerCounterparty = null,
         bool $sandbox = false,
-        array $options = [],
         LoggerInterface $logger = null,
         RequestInterface $request = null,
     ) {
@@ -76,7 +75,6 @@ class Tracking extends Ukrposhta implements TrackingInterface
             $bearerStatusTracking,
             $bearerCounterparty,
             $sandbox,
-            $options,
             $logger
         );
 
